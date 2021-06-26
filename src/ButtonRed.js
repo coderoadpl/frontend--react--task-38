@@ -1,8 +1,15 @@
 import React from 'react'
 
+const buttonStyles = {
+  color: 'white',
+  backgroundColor: 'red'
+}
+
 export const ButtonRed = () => {
   return (
-    <button>
+    <button
+      style={buttonStyles}
+    >
       ButtonRed
     </button>
   )
