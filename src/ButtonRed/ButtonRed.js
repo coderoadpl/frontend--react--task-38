@@ -1,11 +1,13 @@
 import React from 'react'
 
-import './styles.css'
+import classes from './styles.module.css'
+
+console.log(classes)
 
 export const ButtonRed = () => {
   return (
     <button
-      className={'button'}
+      className={classes.button}
     >
       ButtonRed
     </button>

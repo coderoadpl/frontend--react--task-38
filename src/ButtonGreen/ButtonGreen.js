@@ -1,11 +1,13 @@
 import React from 'react'
 
-import './styles.css'
+import { button } from './styles.module.css'
+
+console.log(button)
 
 export const ButtonGreen = () => {
   return (
     <button
-      className={'button'}
+      className={button}
     >
       ButtonGreen
     </button>

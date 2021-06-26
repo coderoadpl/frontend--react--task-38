@@ -1,6 +1,6 @@
 import React from 'react'
-import ButtonRed from './ButtonRed'
 import ButtonGreen from './ButtonGreen'
+import ButtonRed from './ButtonRed'
 
 export const App = () => {
   return (
