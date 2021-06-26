@@ -1,14 +1,11 @@
 import React from 'react'
 
-const buttonStyles = {
-  color: 'white',
-  backgroundColor: 'red'
-}
+import './styles.css'
 
 export const ButtonRed = () => {
   return (
     <button
-      style={buttonStyles}
+      className={'button'}
     >
       ButtonRed
     </button>
